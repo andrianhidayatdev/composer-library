@@ -1,0 +1,19 @@
+{
+    "name": "andriandev/composer-library",
+    "description": "Belajar Composer Library",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "andriandev"
+        }
+    ],
+    "require": {
+        "php":">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AndrianDev\\Belajar\\":"src/"
+        }
+    }
+}
